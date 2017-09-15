@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BulletDynamics", "..\lib\bu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinearMath", "..\lib\bullet\build3\vs2010\LinearMath.vcxproj", "{73FEE333-B58D-7540-8A9C-6DB26132F74B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IrrlichtTest", "IrrlichtTest\IrrlichtTest.vcxproj", "{C561A76C-7766-4E83-8116-479910A2359C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{73FEE333-B58D-7540-8A9C-6DB26132F74B}.Release|x64.Build.0 = Release|x64
 		{73FEE333-B58D-7540-8A9C-6DB26132F74B}.Release|x86.ActiveCfg = Release|Win32
 		{73FEE333-B58D-7540-8A9C-6DB26132F74B}.Release|x86.Build.0 = Release|Win32
+		{C561A76C-7766-4E83-8116-479910A2359C}.Debug|x64.ActiveCfg = Debug|x64
+		{C561A76C-7766-4E83-8116-479910A2359C}.Debug|x64.Build.0 = Debug|x64
+		{C561A76C-7766-4E83-8116-479910A2359C}.Debug|x86.ActiveCfg = Debug|Win32
+		{C561A76C-7766-4E83-8116-479910A2359C}.Debug|x86.Build.0 = Debug|Win32
+		{C561A76C-7766-4E83-8116-479910A2359C}.Release|x64.ActiveCfg = Release|x64
+		{C561A76C-7766-4E83-8116-479910A2359C}.Release|x64.Build.0 = Release|x64
+		{C561A76C-7766-4E83-8116-479910A2359C}.Release|x86.ActiveCfg = Release|Win32
+		{C561A76C-7766-4E83-8116-479910A2359C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
