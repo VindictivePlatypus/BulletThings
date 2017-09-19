@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.4
+VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BulletTesting1", "BulletTesting1\BulletTesting1.vcxproj", "{4CF1B402-FF1F-4D17-A3C0-2C79D9E09765}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BulletCollision", "..\lib\bullet\build3\vs2010\BulletCollision.vcxproj", "{03B10802-2806-B84D-9254-E1FB1E802D55}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BulletDynamics", "..\lib\bullet\build3\vs2010\BulletDynamics.vcxproj", "{30118D66-8A4A-D54C-BDC0-414DBB530D88}"
@@ -21,14 +19,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4CF1B402-FF1F-4D17-A3C0-2C79D9E09765}.Debug|x64.ActiveCfg = Debug|x64
-		{4CF1B402-FF1F-4D17-A3C0-2C79D9E09765}.Debug|x64.Build.0 = Debug|x64
-		{4CF1B402-FF1F-4D17-A3C0-2C79D9E09765}.Debug|x86.ActiveCfg = Debug|Win32
-		{4CF1B402-FF1F-4D17-A3C0-2C79D9E09765}.Debug|x86.Build.0 = Debug|Win32
-		{4CF1B402-FF1F-4D17-A3C0-2C79D9E09765}.Release|x64.ActiveCfg = Release|x64
-		{4CF1B402-FF1F-4D17-A3C0-2C79D9E09765}.Release|x64.Build.0 = Release|x64
-		{4CF1B402-FF1F-4D17-A3C0-2C79D9E09765}.Release|x86.ActiveCfg = Release|Win32
-		{4CF1B402-FF1F-4D17-A3C0-2C79D9E09765}.Release|x86.Build.0 = Release|Win32
 		{03B10802-2806-B84D-9254-E1FB1E802D55}.Debug|x64.ActiveCfg = Debug|x64
 		{03B10802-2806-B84D-9254-E1FB1E802D55}.Debug|x64.Build.0 = Debug|x64
 		{03B10802-2806-B84D-9254-E1FB1E802D55}.Debug|x86.ActiveCfg = Debug|Win32
@@ -64,5 +54,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AA72CC6-B35B-410D-839B-F56ACCEAB1AE}
 	EndGlobalSection
 EndGlobal
